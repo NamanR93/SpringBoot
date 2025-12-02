@@ -1,0 +1,14 @@
+--In this we will we creating Form-validation. using spring-Boot
+-- First we create the FormPage using bootstrap
+-- Also create the EntityClass with fields like username, email.
+
+-- Inject the two dependency for validation:
+											 -bean validation (this is specification)
+											 -hibernate validator ( implemenation)
+											 
+											 
+--Now apply the validation on Bean class(on the properties) like @NotBlank, @Size	
+-- now to trigger these validation use @Valid annotation
+-- then in form.html apply the div from bootstrap also use th:each to print error								 
+											 
+											 
