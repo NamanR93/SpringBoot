@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>practise</title>
+</head>
+<body>
+
+<h3>This is just for practise</h3>
+
+ <ul>
+	<li th:each =" n,status : ${names}">
+	
+		<span th:text="${status.index} + ' ' +  ${n}"></span>
+	
+	</li>
+
+</ul> 
+	
+</body>
+</html>
